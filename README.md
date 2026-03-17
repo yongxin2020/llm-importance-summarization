@@ -71,7 +71,7 @@ We conducted experiments on the following models and datasets:
 
 | Dataset | Type | Samples |
 |---------|------|---------|
-| **CNN/DailyMail** | News | 3,000 |
+| **CNN/DailyMail** | News | 3,000 (300 for computational analysis)|
 | **SAMSum** | Dialogue | 819 |
 | **DECODA** | French Dialogue | 100 |
 

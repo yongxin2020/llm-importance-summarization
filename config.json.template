@@ -1,0 +1,38 @@
+{
+    "python_path": "/path/to/your/python_env/bin/python",
+    "openai_api_key": "YOUR_OPENAI_KEY_HERE",
+    "deepseek_api_key": "YOUR_DEEPSEEK_KEY_HERE",
+    "HF_access_token": "YOUR_HUGGING_FACE_TOKEN_HERE",
+    "models": {
+        "Llama-3.2-1B-Instruct": {
+            "family": "meta-llama",
+            "num_layers": 16,
+            "num_heads": 32
+        },
+        "Llama-3.1-8B-Instruct": {
+            "family": "meta-llama",
+            "num_layers": 32,
+            "num_heads": 32
+        },
+        "Qwen2.5-1.5B-Instruct": {
+            "family": "Qwen",
+            "num_layers": 28,
+            "num_heads": 12
+        },
+        "Qwen2.5-3B-Instruct": {
+            "family": "Qwen",
+            "num_layers": 36,
+            "num_heads": 16
+        },
+        "Qwen2.5-7B-Instruct": {
+            "family": "Qwen",
+            "num_layers": 28,
+            "num_heads": 28
+        },
+        "Qwen2.5-14B-Instruct": {
+            "family": "Qwen",
+            "num_layers": 48,
+            "num_heads": 40
+        }
+    }
+}
